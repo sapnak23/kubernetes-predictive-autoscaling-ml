@@ -187,6 +187,22 @@ Selected screenshots from the experimental environment are available in `docs/im
 - Grafana CPU monitoring
 - Grafana replica monitoring
 
+### Kubernetes HPA Scaling
+
+The following example shows the reactive Kubernetes HPA responding to increased CPU utilisation by increasing the number of replicas.
+
+![Kubernetes HPA scaling during workload execution](docs/images/hpa_scaling_example.png)
+
+### Monitoring with Grafana
+
+CPU utilisation was monitored during workload execution using Prometheus and Grafana.
+
+![Grafana CPU monitoring](docs/images/grafana_cpu_dashboard.png)
+
+Replica behaviour was also monitored throughout the experiments.
+
+![Grafana replica monitoring](docs/images/grafana_replica_dashboard.png)
+
 ## Important Interpretation
 
 This repository does **not** contain a production or live ML-driven Kubernetes autoscaling controller.
