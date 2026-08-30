@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated trained models
+*.joblib
+experiment3/models/
+
+# Environment files
+.env
+*.env
+
+# Kubernetes credentials/config
+kubeconfig
+*.kubeconfig
+
+# Keys and certificates
+*.pem
+*.key
+*.pfx
+*.p12
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary/log files
+*.tmp
+*.log
