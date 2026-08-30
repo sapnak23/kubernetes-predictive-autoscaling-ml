@@ -189,7 +189,7 @@ Selected screenshots from the experimental environment are available in `docs/im
 
 ### Kubernetes HPA Scaling
 
-The following example shows the reactive Kubernetes HPA responding to increased CPU utilisation by increasing the number of replicas.
+The following example shows the reactive Kubernetes HPA responding to changes in CPU utilisation by adjusting the number of replicas.
 
 ![Kubernetes HPA scaling during workload execution](docs/images/hpa_scaling_example.png)
 
